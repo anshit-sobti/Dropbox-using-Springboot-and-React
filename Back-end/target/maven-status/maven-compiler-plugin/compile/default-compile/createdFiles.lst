@@ -1,0 +1,10 @@
+com/service/ShareFolderService.class
+com/entity/User.class
+com/controller/UserController.class
+com/entity/Sharewith.class
+com/SpringBootDemo.class
+com/repository/UserRepository.class
+com/service/UserService.class
+com/repository/GroupTRepository.class
+com/entity/CreateShareFolder.class
+com/entity/GroupT.class

@@ -16,6 +16,32 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-webmvc</artifactId>
 		</dependency>
+<!-- https://mvnrepository.com/artifact/com.jayway.restassured/spring-mock-mvc -->
+<!-- https://mvnrepository.com/artifact/com.jayway.restassured/spring-mock-mvc -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <scope>test</scope>
+    <version>1.5.3.RELEASE</version>
+</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
+	<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-test-autoconfigure -->
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-test-autoconfigure</artifactId>
+    <version>1.4.0.RELEASE</version>
+</dependency>
+	
+		
+		<!-- https://mvnrepository.com/artifact/org.junit/junit5-engine -->
+<dependency>
+    <groupId>org.junit</groupId>
+    <artifactId>junit5-engine</artifactId>
+    <version>5.0.0-ALPHA</version>
+</dependency>
+		
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>

@@ -42,53 +42,53 @@ public class FirstTest {
     @MockBean
     private User user;
     
-//    @Test
-//    public void allUsers() throws Exception {
-//    	mvc.perform(get("/user/all").accept(MediaType.APPLICATION_JSON));
-//    }
-//
-//    @Test
-//    public void addUsers() throws Exception {
-//        mvc.perform(get("/user/add").accept(MediaType.APPLICATION_JSON));
-//    }
-//
-//    @Test
-//    public void listUsers() throws Exception {
-//        mvc.perform(get("/user/list").accept(MediaType.APPLICATION_JSON));
-//    }
-//
-//    @Test
-//    public void deleteUsers() throws Exception {
-//        mvc.perform(get("/user/delete").accept(MediaType.APPLICATION_JSON));
-//    }
-//
-//    @Test
-//    public void sharingUsers() throws Exception {
-//        mvc.perform(get("/user/sharing").accept(MediaType.APPLICATION_JSON));
-//    }
-//
-//    @Test
-//    public void createsharefolderUsers() throws Exception {
-//        mvc.perform(get("/user/createsharefolder").accept(MediaType.APPLICATION_JSON));
-//    }
-//
-//    @Test
-//    public void upload() throws Exception {
-//        mvc.perform(get("/user/upload").accept(MediaType.APPLICATION_JSON));
-//    }
+   @Test
+   public void allUsers() throws Exception {
+   	mvc.perform(get("/user/all").accept(MediaType.APPLICATION_JSON));
+   }
+
+   @Test
+   public void addUsers() throws Exception {
+       mvc.perform(get("/user/add").accept(MediaType.APPLICATION_JSON));
+   }
+
+   @Test
+   public void listUsers() throws Exception {
+       mvc.perform(get("/user/list").accept(MediaType.APPLICATION_JSON));
+   }
+
+   @Test
+   public void deleteUsers() throws Exception {
+       mvc.perform(get("/user/delete").accept(MediaType.APPLICATION_JSON));
+   }
+
+   @Test
+   public void sharingUsers() throws Exception {
+       mvc.perform(get("/user/sharing").accept(MediaType.APPLICATION_JSON));
+   }
+
+   @Test
+   public void createsharefolderUsers() throws Exception {
+       mvc.perform(get("/user/createsharefolder").accept(MediaType.APPLICATION_JSON));
+   }
+
+   @Test
+   public void upload() throws Exception {
+       mvc.perform(get("/user/upload").accept(MediaType.APPLICATION_JSON));
+   }
 
     @Test
     public void loginUsers() throws Exception {
         mvc.perform(get("/user/login").accept(MediaType.APPLICATION_JSON));
     }
 
-//    @Test
-//    public void logoutUsers() throws Exception {
-//        mvc.perform(get("/user/logout").accept(MediaType.APPLICATION_JSON));
-//    }
-//
-//    @Test
-//    public void uploadfilesUsers() throws Exception {
-//        mvc.perform(get("/user/uploadfiles").accept(MediaType.APPLICATION_JSON));
-//    }
+   @Test
+   public void logoutUsers() throws Exception {
+       mvc.perform(get("/user/logout").accept(MediaType.APPLICATION_JSON));
+   }
+
+   @Test
+   public void uploadfilesUsers() throws Exception {
+       mvc.perform(get("/user/uploadfiles").accept(MediaType.APPLICATION_JSON));
+   }
 }
